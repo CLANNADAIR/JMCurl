@@ -1,0 +1,6 @@
+framework module Pods_JMCurl_Tests {
+  umbrella header "Pods-JMCurl_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

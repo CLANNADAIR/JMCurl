@@ -1,0 +1,23 @@
+{
+  "name": "JMCurl",
+  "version": "0.1.0",
+  "summary": "A short description of JMCurl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CLANNADAIR/JMCurl.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CLANNADAIR": "522674616@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/CLANNADAIR/JMCurl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JMCurl/Classes/*.{h,m}",
+  "vendored_libraries": "JMCurl/Classes/libcurl.a"
+}

@@ -21,17 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/CLANNADAIR/JMCurl'
+  s.homepage         = 'https://github.com/CLANNADAIR/JMCurl.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'CLANNADAIR' => 'liulujia@jimilab.com' }
+  s.author           = { 'CLANNADAIR' => '522674616@qq.com' }
   s.source           = { :git => 'https://github.com/CLANNADAIR/JMCurl.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.platform = :ios, "9.0"
 
-  s.source_files = 'JMCurl/Classes/**/*'
-  
+  s.source_files = 'JMCurl/Classes/*.{h,m}'
+  s.vendored_library    = 'JMCurl/Classes/libcurl.a'
+
   # s.resource_bundles = {
   #   'JMCurl' => ['JMCurl/Assets/*.png']
   # }

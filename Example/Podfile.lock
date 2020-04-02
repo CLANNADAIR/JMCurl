@@ -1,0 +1,23 @@
+PODS:
+  - JMCurl (0.1.0)
+  - Kiwi (3.0.0)
+
+DEPENDENCIES:
+  - JMCurl (from `../`)
+  - Kiwi
+
+SPEC REPOS:
+  trunk:
+    - Kiwi
+
+EXTERNAL SOURCES:
+  JMCurl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JMCurl: 6e665784f6780284ca7b52b96bab0c8696377c60
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+
+PODFILE CHECKSUM: 01f3a7247c249d314fa6fd17a7ee4868d390a12a
+
+COCOAPODS: 1.8.3

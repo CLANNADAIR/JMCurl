@@ -38,11 +38,11 @@
 
 /* Begin PBXFileReference section */
 		2B1E7E2F225F8CB0DF58A9CA /* Pods_JMCurl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMCurl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F5C8A0F57B6073911C3E054 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2F5C8A0F57B6073911C3E054 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3279FAA885539A2B86DEFCBD /* Pods-JMCurl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMCurl_Example.debug.xcconfig"; path = "Target Support Files/Pods-JMCurl_Example/Pods-JMCurl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3F55D4CA72888FCA6DFCEC3A /* Pods_JMCurl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMCurl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42D48FB80BBE75C4595237C0 /* JMCurl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JMCurl.podspec; path = ../JMCurl.podspec; sourceTree = "<group>"; };
-		4D8CA48B0DAA5E34AA2F2C90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		42D48FB80BBE75C4595237C0 /* JMCurl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JMCurl.podspec; path = ../JMCurl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D8CA48B0DAA5E34AA2F2C90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51C4FAC1B576C040A579A62B /* Pods-JMCurl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMCurl_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JMCurl_Tests/Pods-JMCurl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JMCurl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMCurl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -193,7 +193,6 @@
 				51C4FAC1B576C040A579A62B /* Pods-JMCurl_Tests.debug.xcconfig */,
 				DF4CC29C12793B65659A45C5 /* Pods-JMCurl_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
