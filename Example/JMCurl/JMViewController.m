@@ -7,7 +7,6 @@
 //
 
 #import "JMViewController.h"
-
 @interface JMViewController ()
 
 @end

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JMCurl'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of JMCurl.'
 
 # This description is used to generate tags and improve search results.
@@ -28,10 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/CLANNADAIR/JMCurl.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform = :ios, "9.0"
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JMCurl/Classes/*.{h,m}'
-  s.vendored_library    = 'JMCurl/Classes/libcurl.a'
+  s.vendored_frameworks = 'JMCurl.framework'
 
   # s.resource_bundles = {
   #   'JMCurl' => ['JMCurl/Assets/*.png']
